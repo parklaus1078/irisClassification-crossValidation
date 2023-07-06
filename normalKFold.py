@@ -53,4 +53,4 @@ for train_index, test_index in kfold.split(features):
 
 print('\n*****************************************************************************')
 print("Accuracies of Cross Validation is :", cv_accuracy)
-print("Average Accuracy is :", np.mean(cv_accuracy))
+print("Average Accuracy is : {0:.4f}".format(np.mean(cv_accuracy)))
